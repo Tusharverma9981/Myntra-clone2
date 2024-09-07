@@ -8,7 +8,7 @@ header{
     display: flex;
     height: 80px;
     justify-content: space-between;
-    background-color: wheat;
+    
     align-items: center;
 }
 .logo{
@@ -37,4 +37,31 @@ header{
 .nav_bar a sup{
     font-size: 10px;
     color: #ff3f6c;
+}
+search{
+    display: flex;
+    color: rgb(105, 110, 121);
+    background-color: rgb(245, 245, 246);
+    
+    
+}
+.banner{
+    width: 100%;
+    margin-top: 38px;
+}
+.catagory_heading{
+    color: rgb(62, 65, 82);
+    letter-spacing: 0.15em;
+    font-size: 1.8em;
+    max-height: 5em;
+    font-weight: 700;
+    margin: 50px 0px 10px 30px;
+
+}
+.items{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
 }
