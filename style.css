@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color: wheat;
+    align-items: center;
+}
+.logo{
+    height: 45px;
+    
+}
+#logo1{
+    margin-left: 4%;
+}
+.action{
+    margin-right: 4%;
+}
+.nav_bar{
+    display: flex;
+    min-width: 700px;
+    justify-content: space-between;
+}
+.nav_bar a {
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    color: #282c3f;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.nav_bar a sup{
+    font-size: 10px;
+    color: #ff3f6c;
+}
